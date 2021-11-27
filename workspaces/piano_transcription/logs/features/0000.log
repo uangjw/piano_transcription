@@ -1,0 +1,1 @@
+Fri, 26 Nov 2021 17:32:59 features.py[line:36] INFO Namespace(mode='pack_maestro_dataset_to_hdf5', dataset_dir='./datasets/ToqueFlamenco', workspace='./workspaces/piano_transcription')
