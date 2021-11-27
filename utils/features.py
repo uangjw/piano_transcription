@@ -28,8 +28,8 @@ def pack_maestro_dataset_to_hdf5(args):
     sample_rate = config.sample_rate
 
     # Paths
-    csv_path = os.path.join(dataset_dir, 'maestro-v2.0.0.csv')
-    waveform_hdf5s_dir = os.path.join(workspace, 'hdf5s', 'maestro')
+    csv_path = os.path.join(dataset_dir, 'toqueflamenco.csv')
+    waveform_hdf5s_dir = os.path.join(workspace, 'hdf5s', 'toqueflamenco')
 
     logs_dir = os.path.join(workspace, 'logs', get_filename(__file__))
     create_logging(logs_dir, filemode='w')
